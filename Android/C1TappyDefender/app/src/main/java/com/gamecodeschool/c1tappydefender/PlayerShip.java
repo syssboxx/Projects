@@ -85,6 +85,11 @@ public class PlayerShip {
         hitbox.bottom = x + bitmap.getHeight();
     }
 
+
+    public void reduceShieldStrength(){
+        shieldStrength --;
+    }
+
     //getters and setters
     //share its state with the game view - representation, speed and coordinates
     public Bitmap getBitmap(){
