@@ -1,0 +1,8 @@
+C:\STACY\PROJECTS\Projects\Databases\03 JSON Processing\JSON_Processing\JSON_Processing\bin\Debug\JSON_Processing.exe.config
+C:\STACY\PROJECTS\Projects\Databases\03 JSON Processing\JSON_Processing\JSON_Processing\bin\Debug\JSON_Processing.exe
+C:\STACY\PROJECTS\Projects\Databases\03 JSON Processing\JSON_Processing\JSON_Processing\bin\Debug\JSON_Processing.pdb
+C:\STACY\PROJECTS\Projects\Databases\03 JSON Processing\JSON_Processing\JSON_Processing\bin\Debug\Newtonsoft.Json.dll
+C:\STACY\PROJECTS\Projects\Databases\03 JSON Processing\JSON_Processing\JSON_Processing\bin\Debug\Newtonsoft.Json.xml
+C:\STACY\PROJECTS\Projects\Databases\03 JSON Processing\JSON_Processing\JSON_Processing\obj\Debug\JSON_Processing.csprojResolveAssemblyReference.cache
+C:\STACY\PROJECTS\Projects\Databases\03 JSON Processing\JSON_Processing\JSON_Processing\obj\Debug\JSON_Processing.exe
+C:\STACY\PROJECTS\Projects\Databases\03 JSON Processing\JSON_Processing\JSON_Processing\obj\Debug\JSON_Processing.pdb

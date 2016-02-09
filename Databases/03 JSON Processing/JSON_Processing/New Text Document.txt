@@ -1,0 +1,300 @@
+          "media:description": "Лекция: C# Tips and Tricks - част 2\nКурс: Teler
+ik Academy Plus\nЛектор: Николай Костов\nДата: 26 септвмври 2015\n\nУебсайт на А
+кадемията на Телерик: http://academy.telerik.com\n\nСледете за предстоящи безпла
+тни обучения на Академията на Телерик във Facebook: http://www.facebook.com/Tele
+rikAcademy.",
+          "media:community": {
+            "media:starRating": {
+              "@count": "6",
+              "@average": "5.00",
+              "@min": "1",
+              "@max": "5"
+            },
+            "media:statistics": {
+              "@views": "177"
+            }
+          }
+        }
+      },
+      {
+        "id": "yt:video:40lgchWTyDQ",
+        "yt:videoId": "40lgchWTyDQ",
+        "yt:channelId": "UCLC-vbm7OWvpbqzXaoAMGGw",
+        "title": "Основи в XML",
+        "link": {
+          "@rel": "alternate",
+          "@href": "http://www.youtube.com/watch?v=40lgchWTyDQ"
+        },
+        "author": {
+          "name": "TelerikAcademy",
+          "uri": "http://www.youtube.com/channel/UCLC-vbm7OWvpbqzXaoAMGGw"
+        },
+        "published": "2015-09-28T21:12:16+00:00",
+        "updated": "2015-09-29T09:03:38+00:00",
+        "media:group": {
+          "media:title": "Основи в XML",
+          "media:content": {
+            "@url": "https://www.youtube.com/v/40lgchWTyDQ?version=3",
+            "@type": "application/x-shockwave-flash",
+            "@width": "640",
+            "@height": "390"
+          },
+          "media:thumbnail": {
+            "@url": "https://i1.ytimg.com/vi/40lgchWTyDQ/hqdefault.jpg",
+            "@width": "480",
+            "@height": "360"
+          },
+          "media:description": "Лекция: Основи в XML\nКурс: Бази данни 2015\nЛек
+тор: Евлоги Христов\nДата: 28 септември 2015\n\nУебсайт на Академията на Телерик
+: http://academy.telerik.com\n\nСледете за предстоящи безплатни обучения на Акад
+емията на Телерик във Facebook: http://www.facebook.com/TelerikAcademy.",
+          "media:community": {
+            "media:starRating": {
+              "@count": "1",
+              "@average": "5.00",
+              "@min": "1",
+              "@max": "5"
+            },
+            "media:statistics": {
+              "@views": "631"
+            }
+          }
+        }
+      },
+      {
+        "id": "yt:video:KUSJYQnsuJw",
+        "yt:videoId": "KUSJYQnsuJw",
+        "yt:channelId": "UCLC-vbm7OWvpbqzXaoAMGGw",
+        "title": "Представяне на курса по Бази данни",
+        "link": {
+          "@rel": "alternate",
+          "@href": "http://www.youtube.com/watch?v=KUSJYQnsuJw"
+        },
+        "author": {
+          "name": "TelerikAcademy",
+          "uri": "http://www.youtube.com/channel/UCLC-vbm7OWvpbqzXaoAMGGw"
+        },
+        "published": "2015-09-28T18:44:19+00:00",
+        "updated": "2015-09-30T10:21:51+00:00",
+        "media:group": {
+          "media:title": "Представяне на курса по Бази данни",
+          "media:content": {
+            "@url": "https://www.youtube.com/v/KUSJYQnsuJw?version=3",
+            "@type": "application/x-shockwave-flash",
+            "@width": "640",
+            "@height": "390"
+          },
+          "media:thumbnail": {
+            "@url": "https://i4.ytimg.com/vi/KUSJYQnsuJw/hqdefault.jpg",
+            "@width": "480",
+            "@height": "360"
+          },
+          "media:description": "Лекция: Представяне на курса по Бази данни\nКурс
+: Бази данни 2015\nЛектор: Николай Костов\nДата: 28 септември 2015\n\nУебсайт на
+ Академията на Телерик: http://academy.telerik.com\n\nСледете за предстоящи безп
+латни обучения на Академията на Телерик във Facebook: http://www.facebook.com/Te
+lerikAcademy.",
+          "media:community": {
+            "media:starRating": {
+              "@count": "3",
+              "@average": "5.00",
+              "@min": "1",
+              "@max": "5"
+            },
+            "media:statistics": {
+              "@views": "474"
+            }
+          }
+        }
+      },
+      {
+        "id": "yt:video:yoIfXSzgCxo",
+        "yt:videoId": "yoIfXSzgCxo",
+        "yt:channelId": "UCLC-vbm7OWvpbqzXaoAMGGw",
+        "title": "Основи на софтуерното инженерство",
+        "link": {
+          "@rel": "alternate",
+          "@href": "http://www.youtube.com/watch?v=yoIfXSzgCxo"
+        },
+        "author": {
+          "name": "TelerikAcademy",
+          "uri": "http://www.youtube.com/channel/UCLC-vbm7OWvpbqzXaoAMGGw"
+        },
+        "published": "2015-09-25T07:50:10+00:00",
+        "updated": "2015-09-28T20:51:50+00:00",
+        "media:group": {
+          "media:title": "Основи на софтуерното инженерство",
+          "media:content": {
+            "@url": "https://www.youtube.com/v/yoIfXSzgCxo?version=3",
+            "@type": "application/x-shockwave-flash",
+            "@width": "640",
+            "@height": "390"
+          },
+          "media:thumbnail": {
+            "@url": "https://i2.ytimg.com/vi/yoIfXSzgCxo/hqdefault.jpg",
+            "@width": "480",
+            "@height": "360"
+          },
+          "media:description": "Лекция: Основи на софтуерното инженерство\nКурс:
+ Качествен програмен код 2015\nЛектор: Ивайло Кенов\nДата: 24 септември 2015\n\n
+Уебсайт на Академията на Телерик: http://academy.telerik.com\n\nСледете за предс
+тоящи безплатни обучения на Академията на Телерик във Facebook: http://www.faceb
+ook.com/TelerikAcademy.",
+          "media:community": {
+            "media:starRating": {
+              "@count": "4",
+              "@average": "5.00",
+              "@min": "1",
+              "@max": "5"
+            },
+            "media:statistics": {
+              "@views": "275"
+            }
+          }
+        }
+      },
+      {
+        "id": "yt:video:P3fhn12PwJM",
+        "yt:videoId": "P3fhn12PwJM",
+        "yt:channelId": "UCLC-vbm7OWvpbqzXaoAMGGw",
+        "title": "Поведенчески шаблони за дизайн (Behavioural Patterns)",
+        "link": {
+          "@rel": "alternate",
+          "@href": "http://www.youtube.com/watch?v=P3fhn12PwJM"
+        },
+        "author": {
+          "name": "TelerikAcademy",
+          "uri": "http://www.youtube.com/channel/UCLC-vbm7OWvpbqzXaoAMGGw"
+        },
+        "published": "2015-09-23T09:30:40+00:00",
+        "updated": "2015-09-28T08:42:39+00:00",
+        "media:group": {
+          "media:title": "Поведенчески шаблони за дизайн (Behavioural Patterns)"
+,
+          "media:content": {
+            "@url": "https://www.youtube.com/v/P3fhn12PwJM?version=3",
+            "@type": "application/x-shockwave-flash",
+            "@width": "640",
+            "@height": "390"
+          },
+          "media:thumbnail": {
+            "@url": "https://i1.ytimg.com/vi/P3fhn12PwJM/hqdefault.jpg",
+            "@width": "480",
+            "@height": "360"
+          },
+          "media:description": "Лекция: Поведенчески шаблони за дизайн (Structur
+al Patterns)\nКурс: Качествен програмен код 2015\nЛектор: Ивайло Кенов\nДата: 12
+ септември 2015\n\nУебсайт на Академията на Телерик: http://academy.telerik.com\
+n\nСледете за предстоящи безплатни обучения на Академията на Телерик във Faceboo
+k: http://www.facebook.com/TelerikAcademy.",
+          "media:community": {
+            "media:starRating": {
+              "@count": "0",
+              "@average": "0.00",
+              "@min": "1",
+              "@max": "5"
+            },
+            "media:statistics": {
+              "@views": "438"
+            }
+          }
+        }
+      },
+      {
+        "id": "yt:video:NQR-IB3xF1s",
+        "yt:videoId": "NQR-IB3xF1s",
+        "yt:channelId": "UCLC-vbm7OWvpbqzXaoAMGGw",
+        "title": "Защо е важно децата да учат информатика",
+        "link": {
+          "@rel": "alternate",
+          "@href": "http://www.youtube.com/watch?v=NQR-IB3xF1s"
+        },
+        "author": {
+          "name": "TelerikAcademy",
+          "uri": "http://www.youtube.com/channel/UCLC-vbm7OWvpbqzXaoAMGGw"
+        },
+        "published": "2015-09-22T09:02:57+00:00",
+        "updated": "2015-09-29T10:17:18+00:00",
+        "media:group": {
+          "media:title": "Защо е важно децата да учат информатика",
+          "media:content": {
+            "@url": "https://www.youtube.com/v/NQR-IB3xF1s?version=3",
+            "@type": "application/x-shockwave-flash",
+            "@width": "640",
+            "@height": "390"
+          },
+          "media:thumbnail": {
+            "@url": "https://i3.ytimg.com/vi/NQR-IB3xF1s/hqdefault.jpg",
+            "@width": "480",
+            "@height": "360"
+          },
+          "media:description": "Гледайте репортажа на ТВ Европа за необходимостт
+а от по-засилено изучаване на информатика в училище с участието на Николай Косто
+в, мениджър \"Софтуерно инженерство\" в Telerik, и Албена Тачева, родител на уче
+ник от \"Алго академията на Телерик\".\n\nУебсайт на Академията на Телерик: http
+://academy.telerik.com\n\nСледете за предстоящи безплатни обучения на Академията
+ на Телерик във Facebook: http://www.facebook.com/TelerikAcademy.",
+          "media:community": {
+            "media:starRating": {
+              "@count": "23",
+              "@average": "5.00",
+              "@min": "1",
+              "@max": "5"
+            },
+            "media:statistics": {
+              "@views": "1215"
+            }
+          }
+        }
+      },
+      {
+        "id": "yt:video:AtF3KXn4b_Y",
+        "yt:videoId": "AtF3KXn4b_Y",
+        "yt:channelId": "UCLC-vbm7OWvpbqzXaoAMGGw",
+        "title": "Асинхронно програмиране в C#",
+        "link": {
+          "@rel": "alternate",
+          "@href": "http://www.youtube.com/watch?v=AtF3KXn4b_Y"
+        },
+        "author": {
+          "name": "TelerikAcademy",
+          "uri": "http://www.youtube.com/channel/UCLC-vbm7OWvpbqzXaoAMGGw"
+        },
+        "published": "2015-09-14T12:24:26+00:00",
+        "updated": "2015-09-29T08:28:26+00:00",
+        "media:group": {
+          "media:title": "Асинхронно програмиране в C#",
+          "media:content": {
+            "@url": "https://www.youtube.com/v/AtF3KXn4b_Y?version=3",
+            "@type": "application/x-shockwave-flash",
+            "@width": "640",
+            "@height": "390"
+          },
+          "media:thumbnail": {
+            "@url": "https://i2.ytimg.com/vi/AtF3KXn4b_Y/hqdefault.jpg",
+            "@width": "480",
+            "@height": "360"
+          },
+          "media:description": "Лекция:  Асинхронно програмиране в C#\nКурс: Tel
+erik Academy Plus\nЛектор: Георги Георгиев\nДата: 12 септември 2015\n\nУебсайт н
+а Академията на Телерик: http://academy.telerik.com\n\nСледете за предстоящи без
+платни обучения на Академията на Телерик във Facebook: http://www.facebook.com/T
+elerikAcademy.",
+          "media:community": {
+            "media:starRating": {
+              "@count": "5",
+              "@average": "5.00",
+              "@min": "1",
+              "@max": "5"
+            },
+            "media:statistics": {
+              "@views": "528"
+            }
+          }
+        }
+      }
+    ]
+  }
+}
+Video titles in
+Press any key to continue . . .
