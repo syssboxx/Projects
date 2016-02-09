@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.view.KeyEvent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -41,5 +42,14 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
         //now shut down the activity
         finish();
+    }
+
+    //it the player hits back button - quit the app
+    public boolean onKeyDown(int keyCode,KeyEvent event){
+        if(keyCode == KeyEvent.KEYCODE_BACK){
+            finish();
+            return true;
+        }
+        return false;
     }
 }

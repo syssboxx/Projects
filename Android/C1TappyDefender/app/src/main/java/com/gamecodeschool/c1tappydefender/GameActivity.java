@@ -5,6 +5,7 @@ import android.graphics.Point;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Display;
+import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuItem;
 
@@ -44,6 +45,15 @@ public class GameActivity extends Activity {
     protected void onResume(){
         super.onResume();
         gameView.resume();
+    }
+
+    //it the player hits back button - quit the app
+    public boolean onKeyDown(int keyCode,KeyEvent event){
+        if(keyCode == KeyEvent.KEYCODE_BACK){
+            finish();
+            return true;
+        }
+        return false;
     }
 
 
