@@ -1,9 +1,13 @@
 package com.syssboxx.yamba;
 
 import android.app.Fragment;
+import android.app.ProgressDialog;
+import android.content.Intent;
+import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.util.Log;
@@ -30,6 +34,8 @@ public class StatusFragment extends Fragment implements View.OnClickListener {
     private TextView textCount;
 
     private int defaultTextColor;
+
+    SharedPreferences prefs;
 
     final int MAX_COUNT = 140;
 
@@ -90,39 +96,52 @@ public class StatusFragment extends Fragment implements View.OnClickListener {
 
     private final class PostTask extends AsyncTask<String,Void,String> {
 
-        /**
-         * Override this method to perform a computation on a background thread. The
-         * specified parameters are the parameters passed to {@link #execute}
-         * by the caller of this task.
-         * <p/>
-         * This method can call {@link #publishProgress} to publish updates
-         * on the UI thread.
-         *
-         * @param params The parameters of the task.
-         * @return A result, defined by the subclass of this task.
-         * @see #onPreExecute()
-         * @see #onPostExecute
-         * @see #publishProgress
-         */
+        private ProgressDialog progress;
+
+        @Override
+        protected void onPreExecute() {
+            super.onPreExecute();
+            progress = ProgressDialog.show(getActivity(), "Posting","Please wait...");
+            progress.setCancelable(true);
+        }
+
+        //executes on the non-UI thread
         @Override
         protected String doInBackground(String... params) {
-            String result;
-            YambaClient yambaCloud = new YambaClient("student","password");
-            try {
+            String result="";
+
+            try{
+                SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(getActivity());
+                String username = prefs.getString("username","");
+                String password = prefs.getString("password","");
+
+                //check if password or username are not empty
+                //if empty set a toast to set login info and go back to Settings Activity
+                if(username.isEmpty() || password.isEmpty()){
+                    Intent i = new Intent(getActivity(),SettingsActivity.class);
+                    startActivity(i);
+                    result = "Please update your username and password";
+                }
+                //if it's ok, start the network task
+                YambaClient yambaCloud = new YambaClient(username,password);
                 yambaCloud.postStatus(params[0]);
                 result = "Successfully posted";
-            } catch (YambaClientException e) {
+                Log.e(TAG,"Successfully posted"+params[0]);
+            }catch (Exception e){
+                Log.e(TAG,"Failed to post");
                 e.printStackTrace();
                 result = "Failed to post to yamba service";
             }
-
             return result;
         }
 
         @Override
         protected void onPostExecute(String result){
             super.onPostExecute(result);
-            Toast.makeText(StatusFragment.this.getActivity(), result, Toast.LENGTH_LONG).show();
+            progress.dismiss();
+            if(getActivity()!= null && result != null){
+                Toast.makeText(StatusFragment.this.getActivity(), result, Toast.LENGTH_LONG).show();
+            }
         }
     }
 }
